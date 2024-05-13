@@ -1,7 +1,6 @@
-import { FaPlus } from "react-icons/fa"; // example - use react-icons/fa for icons
 import { Link } from "react-router-dom";
 
-const Index = () => {
+const Contact = () => {
   return (
     <div className="min-h-screen bg-gray-100">
       <header className="bg-blue-600 text-white p-4">
@@ -27,9 +26,10 @@ const Index = () => {
         </nav>
       </header>
       <main className="container mx-auto p-4">
-        <h1 className="text-3xl font-bold underline">
-          Hello world! <FaPlus />
-        </h1>
+        <h1 className="text-3xl font-bold underline">Contact Us</h1>
+        <p className="mt-4">
+          Feel free to reach out to us at contact@mywebsite.com.
+        </p>
       </main>
       <footer className="bg-blue-600 text-white p-4 mt-4">
         <div className="container mx-auto text-center">
@@ -40,4 +40,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Contact;
